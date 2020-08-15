@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EB06B6F4-6136-DA27-0814-4777F9B1FEB0}</ProjectGuid>
+    <ProjectGuid>{B008830D-0496-0135-61E7-48499CCD734F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -55,8 +55,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\HandpaintedEnvironmentVol1\Scripts\FPSDisplay.cs" />
+     <Compile Include="Assets\HandpaintedEnvironmentVol1\Scripts\Flythrough.cs" />
+     <Compile Include="Assets\HandpaintedEnvironmentVol1\Scripts\LevelSelect.cs" />
+     <Compile Include="Assets\HandpaintedEnvironmentVol1\Scripts\MenuButton.cs" />
+     <Compile Include="Assets\HandpaintedEnvironmentVol1\Scripts\SmoothMouseLook.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\ThirdPersonMovement.cs" />
+     <None Include="Assets\HandpaintedEnvironmentVol1\Shaders\WindGrass.shader" />
+     <None Include="Assets\HandpaintedEnvironmentVol1\Shaders\Blur.shader" />
+     <None Include="Assets\HandpaintedEnvironmentVol1\Shaders\WindLeaves_MultiColor.shader" />
+     <None Include="Assets\HandpaintedEnvironmentVol1\Shaders\Wind_Foliage_NoSSS.shader" />
+     <None Include="Assets\HandpaintedEnvironmentVol1\Shaders\Old\WindLeaves.shader" />
+     <None Include="Assets\HandpaintedEnvironmentVol1\Shaders\HandpaintedBaseShader.shader" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/os/Unity/2019.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -586,37 +597,37 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/os/Unity/2019.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/thoma/OneDrive/Desktop/GameTutorials/Playgrounds/Third Person Sandbox/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/workspace/Team-Playground/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Cinemachine">
- <HintPath>C:/Users/thoma/OneDrive/Desktop/GameTutorials/Playgrounds/Third Person Sandbox/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ <HintPath>C:/workspace/Team-Playground/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/thoma/OneDrive/Desktop/GameTutorials/Playgrounds/Third Person Sandbox/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/workspace/Team-Playground/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/thoma/OneDrive/Desktop/GameTutorials/Playgrounds/Third Person Sandbox/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/workspace/Team-Playground/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/thoma/OneDrive/Desktop/GameTutorials/Playgrounds/Third Person Sandbox/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/workspace/Team-Playground/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/thoma/OneDrive/Desktop/GameTutorials/Playgrounds/Third Person Sandbox/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/workspace/Team-Playground/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/thoma/OneDrive/Desktop/GameTutorials/Playgrounds/Third Person Sandbox/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/workspace/Team-Playground/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/thoma/OneDrive/Desktop/GameTutorials/Playgrounds/Third Person Sandbox/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/workspace/Team-Playground/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.cinemachine.editor">
- <HintPath>C:/Users/thoma/OneDrive/Desktop/GameTutorials/Playgrounds/Third Person Sandbox/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ <HintPath>C:/workspace/Team-Playground/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/thoma/OneDrive/Desktop/GameTutorials/Playgrounds/Third Person Sandbox/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/workspace/Team-Playground/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/thoma/OneDrive/Desktop/GameTutorials/Playgrounds/Third Person Sandbox/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/workspace/Team-Playground/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
