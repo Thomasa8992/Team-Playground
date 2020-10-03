@@ -55,19 +55,40 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\HandpaintedEnvironmentVol1\Scripts\FPSDisplay.cs" />
-     <Compile Include="Assets\HandpaintedEnvironmentVol1\Scripts\Flythrough.cs" />
-     <Compile Include="Assets\HandpaintedEnvironmentVol1\Scripts\LevelSelect.cs" />
-     <Compile Include="Assets\HandpaintedEnvironmentVol1\Scripts\MenuButton.cs" />
-     <Compile Include="Assets\HandpaintedEnvironmentVol1\Scripts\SmoothMouseLook.cs" />
+     <Compile Include="Assets\Imported Assets\HandpaintedEnvironmentVol1\Scripts\FPSDisplay.cs" />
+     <Compile Include="Assets\Imported Assets\HandpaintedEnvironmentVol1\Scripts\Flythrough.cs" />
+     <Compile Include="Assets\Imported Assets\HandpaintedEnvironmentVol1\Scripts\LevelSelect.cs" />
+     <Compile Include="Assets\Imported Assets\HandpaintedEnvironmentVol1\Scripts\MenuButton.cs" />
+     <Compile Include="Assets\Imported Assets\HandpaintedEnvironmentVol1\Scripts\SmoothMouseLook.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\Inventory.cs" />
+     <Compile Include="Assets\Scripts\Item.cs" />
+     <Compile Include="Assets\Scripts\Slot.cs" />
      <Compile Include="Assets\Scripts\ThirdPersonMovement.cs" />
-     <None Include="Assets\HandpaintedEnvironmentVol1\Shaders\WindGrass.shader" />
-     <None Include="Assets\HandpaintedEnvironmentVol1\Shaders\Blur.shader" />
-     <None Include="Assets\HandpaintedEnvironmentVol1\Shaders\WindLeaves_MultiColor.shader" />
-     <None Include="Assets\HandpaintedEnvironmentVol1\Shaders\Wind_Foliage_NoSSS.shader" />
-     <None Include="Assets\HandpaintedEnvironmentVol1\Shaders\Old\WindLeaves.shader" />
-     <None Include="Assets\HandpaintedEnvironmentVol1\Shaders\HandpaintedBaseShader.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\Imported Assets\HandpaintedEnvironmentVol1\Shaders\WindGrass.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\Imported Assets\HandpaintedEnvironmentVol1\Shaders\Blur.shader" />
+     <None Include="Assets\Imported Assets\HandpaintedEnvironmentVol1\Shaders\WindLeaves_MultiColor.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\Imported Assets\HandpaintedEnvironmentVol1\Shaders\Wind_Foliage_NoSSS.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\Imported Assets\HandpaintedEnvironmentVol1\Shaders\Old\WindLeaves.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Imported Assets\HandpaintedEnvironmentVol1\Shaders\HandpaintedBaseShader.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/os/Unity/2019.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

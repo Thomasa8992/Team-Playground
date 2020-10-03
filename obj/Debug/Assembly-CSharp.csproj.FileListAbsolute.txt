@@ -274,3 +274,7 @@ C:\Users\thoma\OneDrive\Desktop\GameTutorials\Playgrounds\Third Person Sandbox\o
 C:\Users\thoma\OneDrive\Desktop\GameTutorials\Playgrounds\Third Person Sandbox\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\thoma\OneDrive\Desktop\GameTutorials\Playgrounds\Third Person Sandbox\obj\Debug\Assembly-CSharp.dll
 C:\Users\thoma\OneDrive\Desktop\GameTutorials\Playgrounds\Third Person Sandbox\obj\Debug\Assembly-CSharp.pdb
+C:\workspace\Team-Playground\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\workspace\Team-Playground\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+C:\workspace\Team-Playground\obj\Debug\Assembly-CSharp.dll
+C:\workspace\Team-Playground\obj\Debug\Assembly-CSharp.pdb
