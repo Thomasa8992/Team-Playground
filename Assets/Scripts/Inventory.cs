@@ -7,26 +7,32 @@ public class Inventory : MonoBehaviour
     [SerializeField]
     private GameObject inventoryObject;
 
+    [SerializeField]
+    private Camera mainCamera;
+
     public Slot[] Slots;
 
     private void Update() {
         if(Input.GetKeyDown(KeyCode.I)) {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            mainCamera.enabled = false;
+
             inventoryObject.SetActive(!inventoryObject.activeInHierarchy);
+            if(!inventoryObject.activeInHierarchy) {
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
+                mainCamera.enabled = true;
+            }
         }
     }
 
     public void AddItem(Item pickedUpItem, Item startingItem = null) {
-        Debug.Log("outside foreach");
-
         foreach (var slot in Slots) {
-            Debug.Log("inside foreach");
             if (!slot.item) {
-                Debug.Log("inside foreach if");
                 pickedUpItem.transform.parent = slot.transform;
                 return;
-            } else {
-                Debug.Log("didn't put it in slot");
-            }
+            } 
         }
     }
 

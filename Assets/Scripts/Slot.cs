@@ -21,7 +21,6 @@ public class Slot : MonoBehaviour
 
     public void CheckForItem() {
         if (transform.childCount > 1) {
-            Debug.Log("found item");
             item = transform.GetChild(1).GetComponent<Item>();
             GetComponent<Image>().sprite = item.itemSprite;
 
@@ -29,7 +28,6 @@ public class Slot : MonoBehaviour
                 amountText.text = item.amountInStack.ToString();
             }
         } else {
-            Debug.Log("found no item");
             item = null;
             GetComponent<Image>().sprite = defaultSprite;
             amountText.text = "";
